@@ -12,11 +12,7 @@ uint8_t RemoteXY_CONF[] =   // 86 bytes
   72,73,84,0,10,22,153,24,24,59,63,10,10,59,65,10,10,48,4,26,
   31,79,78,0,31,79,70,70,0,5,26,83,60,60,93,34,25,25,93,35,
   26,26,0,2,26,31 };
-// uint8_t RemoteXY_CONF[] = {
-//   255,3,0,0,0,39,0,19,0,0,0,0,31,1,106,200,1,1,2,0,
-//   10,40,115,24,24,48,4,26,31,79,78,0,31,79,70,70,0,5,24,23,
-//   60,60,0,2,26,31
-// };
+
 struct {
 
     // input variables
@@ -29,12 +25,7 @@ struct {
   uint8_t connect_flag;  // =1 if wire connected, else =0
 
 } RemoteXY;
-// struct {
-//   uint8_t pushSwitch_01;
-//   int8_t joystick_01_x;
-//   int8_t joystick_01_y;
-//   uint8_t connect_flag;
-// } RemoteXY;
+
 #pragma pack(pop)
 #define LEFT_DIR_PIN 14
 #define RIGHT_DIR_PIN 26
@@ -59,7 +50,6 @@ void setup() {
 
 void loop() {
   RemoteXY_Handler();
-  //put your main code here, to run repeatedly:
   int8_t x = RemoteXY.joystick_01_x;
   int8_t y = RemoteXY.joystick_01_y;
   int deadzone = 15;
@@ -112,36 +102,6 @@ void loop() {
 
   delay(200); // Slow down serial output for readability
 }
-
-
-// ---
-// #define REMOTEXY_MODE__ESP32_BLE
-// #define REMOTEXY_BLUETOOTH_NAME "SUMOCAR"
-// #include <BLEDevice.h>
-// #include <RemoteXY.h>
-
-// // RemoteXY GUI configuration
-// #pragma pack(push, 1)
-// uint8_t RemoteXY_CONF[] = {
-//   255, 4, 0, 0, 0, 51, 0, 19, 0, 0, 0, 0, 31, 1, 106, 200, 1, 1, 3, 0,
-//   1, 64, 146, 24, 24, 0, 2, 31, 72, 73, 84, 0, 10, 27, 148, 24, 24, 48, 4, 26,
-//   31, 79, 78, 0, 31, 79, 70, 70, 0, 5, 25, 60, 60, 60, 0, 2, 26, 31
-// };
-
-
-// // RemoteXY variables
-// struct {
-//   uint8_t HIT;
-//   uint8_t pushSwitch_01;
-//   int8_t joystick_01_x;
-//   int8_t joystick_01_y;
-//   uint8_t connect_flag;
-// } RemoteXY;
-// #pragma pack(pop)
-
-// void setup() {
-//   RemoteXY_Init();  // ✅ This works correctly with BLE mode
-// }
 
 // void loop() {
 //   RemoteXY_Handler();   // ✅ Handles BLE communication
