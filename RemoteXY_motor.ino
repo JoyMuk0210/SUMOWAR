@@ -83,9 +83,6 @@ void loop() {
      digitalWrite(RIGHT_DIR_PIN, LOW);       // Reverse
      ledcWrite(RIGHT_CH, rightPWM);         // Speed (absolute)
     }
-    if(RemoteXY.HIT==1)
-
-
 
   // Print joystick and button values
   Serial.print(" | ON/OFF: ");
