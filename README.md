@@ -36,7 +36,7 @@ Participants control their bots to **dominate the arena**, combining engineering
 
 ## 🧠 Tech & Tools
 - **Microcontroller:** ESP32 and Arduino Uno
-- **Communication:** Bluetooth (RemoteXY / WiFi)
+- **Communication:** WiFi (RemoteXY)
 - **Design Tools:** 
 
 ---
