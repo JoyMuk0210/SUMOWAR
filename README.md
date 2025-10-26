@@ -61,8 +61,14 @@ Participants control their bots to **dominate the arena**, combining engineering
 ---
 
 ## Credits
-**Srijoy Mukherjee** - Event lead, Electronics head
-**Mani Kumar** - Mechanical head
+**Srijoy Mukherjee** - Event coordinator, Electronics lead
+**Mani Kumar** - Mechanical lead
+**Akhil Hasan** - Logistics coordinator
+**Shravya Rangu** - PR coordinator
+
+Electrical team: Dhyey Delvadia, Kabir Gavashande, Krishna Narayan, Dinesh Pichaappan, Mohit Senthilkumaran
+Mechanical team: Akhil Hasan, Sai Datta Sabbini, Mudit Sharma, Palaka Vishnu,
+Arena build: Rishab Raturi, Arnav Jain, Vipul Bansal
 
 
 ## 🧑‍💻 About the Lead
@@ -72,7 +78,6 @@ Participants control their bots to **dominate the arena**, combining engineering
 *NIT Warangal*  
 Executive Member, **Robotics Club NITW**
 
-> Passionate about electronics, embedded systems, robotics — bringing bots to life one circuit at a time ⚡
 
 ---
 
