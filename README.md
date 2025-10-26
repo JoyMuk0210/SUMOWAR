@@ -44,7 +44,7 @@ Participants control their bots to **dominate the arena**, combining engineering
 ## 📂 Repository Structure
 | Folder | Description |
 |--------|--------------|
-| `Codes/ESP32_code` | Codes for manual control. |
+| `Codes/ESP32_code.ino` | Codes for manual control. |
 | `Bot-Design/` | 3D CAD models and circuit diagrams of the Sumobot. |
 | `Event-Proposal/` | Official event proposal and supporting documents. |
 | `Images/` | Photos of the bot, arena, and event visuals. |
