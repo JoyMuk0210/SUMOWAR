@@ -45,6 +45,7 @@ Participants control their bots to **dominate the arena**, combining engineering
 | Folder | Description |
 |--------|--------------|
 | `ESP32_code.ino` | Codes for manual control. |
+| `Arduino_code.ino`| Code for IR sensor. |
 | `Bot-Design/` | 3D CAD models and circuit diagrams of the Sumobot. |
 | `Event-Proposal/` | Official event proposal and supporting documents. |
 | `Images/` | Photos of the bot, arena, and event visuals. |
