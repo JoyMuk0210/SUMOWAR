@@ -6,17 +6,16 @@
 
 ## 🏆 Event Overview
 **SUMOWAR** is a thrilling head-to-head **Sumobot battle** organized as part of **Technozion 2025**, NIT Warangal’s premier technical festival.  
-Teams design, build, and control their bots to **dominate the arena**, combining engineering skill, coding precision, and sheer robotic power.
+Participants control their bots to **dominate the arena**, combining engineering skill, coding precision, and sheer robotic power.
 
 ---
 
 ## ⚔️ Event Format
 - Each match lasts **5 minutes**.  
-- Two teams go head-to-head — **each controlling two Sumobots**.  
-- The objective: **Push your opponent bots out of the warzone**.  
-- If time runs out, the winner is chosen based on **points**:
-  - 🧠 **+10 points** — keeping the opponent in the *Danger Zone* for every 5 seconds.  
-  - 💥 **+5 points** — landing a punch on the opponent bot.
+- Participants go head-to-head — **each controlling one Sumobot**.  
+- The objective: **Push your opponent bots out of the warzone, or to blast the balloon on opponent sumobot**.  
+- If time runs out, the winner is chosen based on most **points**:
+  - 🧠 **+1 point** — keeping the opponent in the *Danger Zone* for every second.  
 
 ---
 
@@ -26,19 +25,18 @@ Teams design, build, and control their bots to **dominate the arena**, combining
 | **Event Name** | SUMOWAR |
 | **Type** | Bot Battle |
 | **Mode** | Manual |
-| **Team Size** | 2 Members per Team |
+| **Team Size** | Individual participation |
 | **Arena** | Hexagonal Warzone with Danger Zone |
 | **Duration per Match** | 5 Minutes |
-| **Victory Condition** | Push opponent bots out of the arena or score highest points |
+| **Victory Condition** | Push opponent bots out of the arena or blast oppponent balloon |
 | **Event Lead** | **Srijoy Mukherjee** |
 | **Organized By** | **Robotics Club, NIT Warangal** |
 
 ---
 
 ## 🧠 Tech & Tools
-- **Microcontroller:** ESP32
-- **Communication:** Bluetooth (RemoteXY / BLE)
-- **Actuation:** Servo motor (Arm)
+- **Microcontroller:** ESP32 and Arduino Uno
+- **Communication:** Bluetooth (RemoteXY / WiFi)
 - **Design Tools:** 
 
 ---
@@ -46,7 +44,7 @@ Teams design, build, and control their bots to **dominate the arena**, combining
 ## 📂 Repository Structure
 | Folder | Description |
 |--------|--------------|
-| `Codes/` | Source codes for manual and autonomous control. |
+| `Codes/ESP32_code` | Codes for manual control. |
 | `Bot-Design/` | 3D CAD models and circuit diagrams of the Sumobot. |
 | `Event-Proposal/` | Official event proposal and supporting documents. |
 | `Images/` | Photos of the bot, arena, and event visuals. |
