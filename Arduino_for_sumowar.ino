@@ -1,14 +1,9 @@
-// #include<Servo.h>
+//Arduino UNO code to send signal to esp32 if any IR senses danger  zone
+
+//defining pins and variables
 #define NUM_SENSORS 6
  float count;
- // int servoSigPin = 13;
- // int servoSig;
  int irSig = 10 ;
-
- // Servo servo1;
-
-
- // Assign pins for IR sensors (adjust based on your wiring)
  int irPins[NUM_SENSORS] = {4,5,6,7,8,9};
 
  // Store sensor states
@@ -16,9 +11,6 @@
 
 void setup() {
    pinMode(irSig, OUTPUT);
-  // pinMode(servoSigPin, INPUT);
-
-  // servo1.attach(11);
    Serial.begin(115200);
   count=0;
   // Initialize sensor pins
@@ -33,38 +25,25 @@ void loop() {
 
   bool dangerDetected = false;
 
+ //state of IR recorded
   for (int i = 0; i < NUM_SENSORS; i++) {
     irState[i] = digitalRead(irPins[i]);
 
-    // IR module: LOW = black detected
     if (irState[i] == HIGH) {
       dangerDetected = true;
       Serial.print("⚠  Black zone detected by sensor ");
       Serial.println(i + 1);
     }
   }
-
+//sends signal to esp32 if any IR detects danger zone
   if (dangerDetected) {
-    count=count+1;
     Serial.println("🚫Danger Zone Detected!Penalty!");
     digitalWrite(irSig,HIGH);
-
-    Serial.print("Points:");
-    Serial.println(count);
-    // You can add motor stop or scoring logic here
-  } else {
+  } 
+  else {
     Serial.println("✅ All Clear (Safe Zone)");
     digitalWrite(irSig,LOW);
   }
 
   delay(500);
-
-  // servoSig = digitalRead(servoSigPin);
-
-  // if(servoSig == HIGH){
-  //   servo1.write(90);
-  // }
-  // else{
-  //   servo1.write(0);
-  // }
 }
