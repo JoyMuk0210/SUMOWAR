@@ -49,7 +49,7 @@ Participants control their bots to **dominate the arena**, combining engineering
 | `Bot-Design/` | 3D CAD models and circuit diagrams of the Sumobot. |
 | `Event-Proposal/` | Official event proposal and supporting documents. |
 | `Images/` | Photos of the bot, arena, and event visuals. |
-| `Docs/` | Rules, judging criteria, and schedule. |
+| `Rules.pdf` | Rules, judging criteria |
 
 ---
 
