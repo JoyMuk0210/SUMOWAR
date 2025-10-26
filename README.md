@@ -66,9 +66,9 @@ Participants control their bots to **dominate the arena**, combining engineering
 - **Akhil Hasan** - Logistics coordinator
 - **Shravya Rangu** - PR coordinator
 
-- Electrical team: Dhyey Delvadia, Kabir Gavashande, Krishna Narayan, Dinesh Pichaappan, Mohit Senthilkumaran
-- Mechanical team: Akhil Hasan, Sai Datta Sabbini, Mudit Sharma, Palaka Vishnu,
-- Arena build: Rishab Raturi, Arnav Jain, Vipul Bansal
+- **Electrical team**: Dhyey Delvadia, Kabir Gavashande, Krishna Narayan, Dinesh Pichaappan, Mohit Senthilkumaran
+- **Mechanical team**: Akhil Hasan, Sai Datta Sabbini, Mudit Sharma, Palaka Vishnu,
+- **Arena build**: Rishab Raturi, Arnav Jain, Vipul Bansal
 
 
 ## 🧑‍💻 About the Lead
