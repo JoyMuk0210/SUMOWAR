@@ -67,7 +67,7 @@ Participants control their bots to **dominate the arena**, combining engineering
 - **Shravya Rangu** - PR coordinator
 
 - **Electrical team**: Dhyey Delvadia, Kabir Gavashande, Krishna Narayan, Dinesh Pichaappan, Mohit Senthilkumaran
-- **Mechanical team**: Akhil Hasan, Sai Datta Sabbini, Mudit Sharma, Palaka Vishnu,
+- **Mechanical team**: Akhil Hasan, Sai Datta Sabbini, Mudit Sharma, Palaka Vishnu, Wafiyyah Ek
 - **Arena build**: Rishab Raturi, Arnav Jain, Vipul Bansal
 
 
@@ -81,8 +81,8 @@ Executive Member, **Robotics Club NITW**
 
 ---
 
-## 📬 Contact
-📧 roboticsclub@nitw.ac.in  
+## 📬 Websites
+📧 [Robotics Club Official website](  
 🌐 [Technozion Official Website](https://technozion.nitw.ac.in/)
 
 ---
