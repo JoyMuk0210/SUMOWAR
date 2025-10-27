@@ -55,11 +55,7 @@ Participants control their bots to **dominate the arena**, combining engineering
 
 ## 📸 Gallery
 | Team | Battle Moment | Sumobots |
-|:--:|:--:|:--:|
-| (![WhatsApp Image 2025-10-25 at 19 56 23_364c7299](https://github.com/user-attachments/assets/778a088b-683d-45bc-920b-452c446fc5f7)
-| (<img width="1349" height="800" alt="Screenshot 2025-10-27 210143" src="https://github.com/user-attachments/assets/e8b3efc5-89e4-46a4-b674-8e030b3b377e" />
-| (![WhatsApp Image 2025-10-27 at 11 46 31_846842fd](https://github.com/user-attachments/assets/809fee6c-f62d-48f4-8ba7-8fc6e2ee7bee)
-|
+| (![WhatsApp Image 2025-10-25 at 19 56 23_364c7299](https://github.com/user-attachments/assets/778a088b-683d-45bc-920b-452c446fc5f7)| (<img width="1349" height="800" alt="Screenshot 2025-10-27 210143" src="https://github.com/user-attachments/assets/e8b3efc5-89e4-46a4-b674-8e030b3b377e" />| (![WhatsApp Image 2025-10-27 at 11 46 31_846842fd](https://github.com/user-attachments/assets/809fee6c-f62d-48f4-8ba7-8fc6e2ee7bee)|
 
 ---
 
